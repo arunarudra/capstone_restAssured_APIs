@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
     	//tags= {"@sanity"},
     	glue = {"stepdefs"},
     	monochrome = true,
-    	plugin = {"pretty","html:test-output"}
+    	plugin = {"pretty","html:test-output","json:test-output/cucumber.json"}
     	
     		
 		)
